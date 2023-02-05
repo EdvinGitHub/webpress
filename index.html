@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="quest.js"></script>
+    <title>Document</title>
+</head>
+<body
+    <form>
+        <button type="button" onclick="hide()" class="button" >Click for question</button>
+        
+        <p><span class="quest-label"></span></p>
+        <div>
+            <label>
+                <input type="radio" name="q1" id="label1" value="0">
+                <span class="ans-label1"></span>
+            </label>
+            <label>
+                <input type="radio" name="q1" id="label2" value="1">
+                <span class="ans-label2"></span>
+            </label>
+            <label>
+                <input type="radio" name="q1" id="label3" value="0">
+                <span class="ans-label3"></span>
+            </label>
+            <label>
+                <input type="radio" name="q1" id="label4" value="0">
+                <span class="ans-label4"></span>
+            </label>
+            
+            
+        </div>
+        
+        <button type="button" onclick="testFunction()" class="send-button" id="bottoncheck">Click for answers</button>
+    </form>
+    
+        <div class="finished-hidden" id="hidden">
+            <h1>Congratulations!</h1>
+            <span class="points-label"></span>
+            <a href="./index.html">TRY AGAIN!</a>
+        </div>
+
+</body>
+</html>
